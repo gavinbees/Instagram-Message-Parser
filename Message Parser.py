@@ -56,8 +56,8 @@ for file in filelist:
 
 def analyze(msg_list, user_name):
     print("Running analysis for " + user_name)
-    all_msg = " ".join(msg_list)
-    most_common_words = collections.Counter(re.findall(r"\b\w+\b", all_msg.lower())).most_common(250)
+    all_msg = " ".join(msg_list) #makes one string out of everything
+    most_common_words = collections.Counter(re.findall(r"\b\w+\b", all_msg.lower())).most_common(250) #250 indicates the 250 most common words
     print(most_common_words)
 
 print(len(user1_msg))
