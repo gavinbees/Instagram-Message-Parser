@@ -8,8 +8,3 @@ You must first download and request your data from Meta which will give you acce
 Do not have any other .html files in the same directory that your .py and message.html files are in. I have not tested what happens on other .html files but it will likely just cause an error.
 Verify in the .html file that the div id's match what's in the script's code
 Adjust the names of the users, your Instagram name is what's above your biography and below your profile picture
-
-## Acknowledgement
-I am just a college student messing around with small projects. This was accomplished by reading online tutorials and watching YouTube videos to figure everything out.
-I doubt I will come back to this for bug fixes or new features, as the code is pretty understandable and you can do what you want with the program from there.
-
